@@ -33,7 +33,8 @@ https://zenn.dev/json_hardcoder/articles/102fa6aa4f3880
 
 古い記事なので
  npm add react-bootstrap@1.0.1をしないとエラる・・  
- TodoApp.solをコピペして実行  
+をコピペして実行  https://github.com/plasmacluster/todo_solidity/blob/master/TodoApp.sol
+ [TodoApp.sol]をコピペして実行 (https://github.com/plasmacluster/todo_solidity/blob/master/TodoApp.sol)
  const address = ` ` `コントラクトアドレス
 ` ` `;のとこ  '　'抜かすとうごかない
 
