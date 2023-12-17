@@ -32,10 +32,9 @@ https://zenn.dev/json_hardcoder/articles/102fa6aa4f3880
  --> 
 
 古い記事なので
- npm add react-bootstrap@1.0.1をしないとエラる・・
- TodoApp.solをコピペして実行
- const address = ` ` `
-コントラクトアドレス
+ npm add react-bootstrap@1.0.1をしないとエラる・・  
+ TodoApp.solをコピペして実行  
+ const address = ` ` `コントラクトアドレス
 ` ` `;のとこ  '　'抜かすとうごかない
 
 #### RemixからMetaMaskのウォレットに接続するためにInjected Provider-Metamakを選択する  
