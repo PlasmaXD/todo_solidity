@@ -1,7 +1,50 @@
-# Getting Started with Create React App
+# TodoApp with Create Solidity and React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
+参考    :https://www.techpit.jp/courses/36/curriculums/37/sections/302/parts/1010
+# npm ver
+├── @testing-library/jest-dom@5.16.5  
+├── @testing-library/react@11.2.7  
+├── @testing-library/user-event@12.8.3  
+├── bootstrap@5.2.3  
+├── react-beautiful-dnd@13.1.1  
+├── react-bootstrap@1.0.1  
+├── react-dom@17.0.2  
+├── react-scripts@5.0.0  
+├── react@17.0.2  
+├── web-vitals@0.2.4  
+└── web3@1.9.0 
+<!--
+- @testing-library/jest-dom@5.16.5
+- @testing-library/react@11.2.7
+- @testing-library/user-event@12.8.3
+- bootstrap@5.2.3
+- react-beautiful-dnd@13.1.1
+- react-bootstrap@1.0.1
+- react-dom@17.0.2
+- react-scripts@5.0.0
+- react@17.0.2
+- web-vitals@0.2.4
+- web3@1.9.0
 
+ --> 
+
+古い記事なので
+ npm add react-bootstrap@1.0.1をしないとエラる・・
+ 
+ const address = ` ` `
+コントラクトアドレス
+` ` `;のとこ  '　'抜かすとうごかない
+
+#### RemixからMetaMaskのウォレットに接続するためにInjected Provider-Metamakを選択する  
+#### contractaddressを以下からコピーする
+
+
+ ![contractaddress](/contractaddress+metamask.png) 
+
+ ### ABIは以下からコピーする
+  ![ABI](/ABIRemix2.png) 
+## 実行方法：ルート(package.jsonの階層)で`npm start`(詳しくは↓)
 ## Available Scripts
 
 In the project directory, you can run:
