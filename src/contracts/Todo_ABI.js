@@ -1,6 +1,8 @@
 import web3 from './web3';
 
-const address ='0x7D67FFF638868717A3c4ccd8f3e18B8d1f3c8413';
+//const address ='0x7D67FFF638868717A3c4ccd8f3e18B8d1f3c8413';//Ganache
+const address ='0x612B15b37d6E72faD73D313379F0dAFa79712De0';//sepolia
+
 
 const abi =[
 	{
