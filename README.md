@@ -1,7 +1,7 @@
 # TodoApp with Create Solidity and React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
-参考    :https://www.techpit.jp/courses/36/curriculums/37/sections/302/parts/1010
+参考 :https://www.techpit.jp/courses/36/curriculums/37/sections/302/parts/1010
 
 https://zenn.dev/json_hardcoder/articles/102fa6aa4f3880
 # npm ver
@@ -33,8 +33,7 @@ https://zenn.dev/json_hardcoder/articles/102fa6aa4f3880
 
 古い記事なので
  npm add react-bootstrap@1.0.1をしないとエラる・・  
-をコピペして実行  https://github.com/plasmacluster/todo_solidity/blob/master/TodoApp.sol
- [TodoApp.sol]をコピペして実行 (https://github.com/plasmacluster/todo_solidity/blob/master/TodoApp.sol)
+ [TodoApp.sol](https://github.com/plasmacluster/todo_solidity/blob/master/TodoApp.sol)をコピペして実行 
  const address = ` ` `コントラクトアドレス
 ` ` `;のとこ  '　'抜かすとうごかない
 
