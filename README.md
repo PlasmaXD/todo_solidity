@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
 参考 :https://www.techpit.jp/courses/36/curriculums/37/sections/302/parts/1010
-## [Remix(開発環境)のリンク](https://remix.ethereum.org/).   
+## [Remix(開発環境)のリンク](https://remix.ethereum.org/)   
 https://zenn.dev/json_hardcoder/articles/102fa6aa4f3880
 # npm ver
 ├── @testing-library/jest-dom@5.16.5  
@@ -112,3 +112,11 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## 暇な人用
+同様のDappsをフレームワーク(hardhatやTruffle)で実装したリポジトリが以下のリンクです
+https://github.com/PlasmaXD/TodoApp-hardhat-project  
+https://github.com/PlasmaXD/TodoAppTruffle  
+メリットとしては同じ動作の自動化（複数のスマートコントラクトのデプロイなどをするときとかにコントラクトアドレスとABIのコピペがめんどいのを自動化できたり）プラグイン入れるのが楽なことが多い気がするので高度なプロトコル、複雑なロジックの実装の際には最終こっちが楽かも
+実務的にはGitでコード管理したりスマートコントラクトのテストやデバッグできるからこっちが多いらしいけど個人開発なら好きなほうでいいかもね
+
