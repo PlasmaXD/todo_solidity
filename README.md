@@ -1,8 +1,32 @@
 # TodoApp with Create Solidity and React App
-
+今回はフロントを素のReactで書いたが別に何でもいい(NuxtでもSvelteでもできるはず)  
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).  
 参考 :https://www.techpit.jp/courses/36/curriculums/37/sections/302/parts/1010
 ## [Remix(開発環境)のリンク](https://remix.ethereum.org/)   
+### Reactを実行するのに必要な環境とツール
+ランタイム(Node.js)とパッケージマネージャ(npm):https://nodejs.org/en/download/package-manager  でインストール  
+確認方法↓
+```bash
+node -v
+npm -v
+```
+### トランザクションを実行するのに必要な環境とツール
+**ローカルEthereumネットワーク(今回はGanachek)**: ローカルでEthereumのプライベートネットワークを構築するツール
+https://archive.trufflesuite.com/ganache/  
+**ウォレット(今回はMetaMask)**: ブラウザ拡張機能として動作するEthereumウォレットで、スマートコントラクトとのやり取りやトランザクションの署名に使用  
+https://metamask.io/ja/
+![image](https://github.com/user-attachments/assets/bcd07080-cf8f-44c5-9351-770804dc1f35)
+### GanacheのアカウントをMetaMaskに登録
+Ganacheの秘密鍵をMetamaskにコピペ
+![スクリーンショット 2024-11-13 172155](https://github.com/user-attachments/assets/9254ab33-5b60-4b98-8618-0e14dc3df0aa)
+
+
+![image](https://github.com/user-attachments/assets/b8d93d0e-1be0-4d39-aa27-df7e61ba1869)
+
+## MetaMaskでのネットワークの設定
+![image](https://github.com/user-attachments/assets/2ac96687-9ac1-4f3a-ba4b-7eb0009cc0be)
+
+https://archive.trufflesuite.com/ganache/
 https://zenn.dev/json_hardcoder/articles/102fa6aa4f3880
 # npm ver
 ├── @testing-library/jest-dom@5.16.5  
@@ -45,7 +69,7 @@ https://zenn.dev/json_hardcoder/articles/102fa6aa4f3880
 
  ### ABIは以下からコピーする
   ![ABI](/ABIRemix2.png) 
-## 実行方法：ルート(package.jsonの階層)で`npm start`(詳しくは↓)
+## 実行方法：ルート(package.jsonの階層)で`npm install`した後`npm start`(詳しくは↓)
 ## Available Scripts
 
 In the project directory, you can run:
