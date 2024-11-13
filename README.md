@@ -114,9 +114,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ## 暇な人用
-同様のDappsをフレームワーク(hardhatやTruffle)で実装したリポジトリが以下のリンクです
+同様のDappsをフレームワーク(hardhatやTruffle)で実装したリポジトリが以下のリンクです  
 https://github.com/PlasmaXD/TodoApp-hardhat-project  
 https://github.com/PlasmaXD/TodoAppTruffle  
-メリットとしては同じ動作の自動化（複数のスマートコントラクトのデプロイなどをするときとかにコントラクトアドレスとABIのコピペがめんどいのを自動化できたり）プラグイン入れるのが楽なことが多い気がするので高度なプロトコル、複雑なロジックの実装の際には最終こっちが楽かも
-実務的にはGitでコード管理したりスマートコントラクトのテストやデバッグできるからこっちが多いらしいけど個人開発なら好きなほうでいいかもね
+メリットとしては同じ動作の自動化（複数のスマートコントラクトのデプロイなどをするときとかにコントラクトアドレスとABIのコピペがめんどいのを自動化できたり）プラグイン入れるのが楽なことが多い気がするので高度なプロトコル、複雑なロジックの実装の際には最終こっちが楽かも  
+実務的にはGitでコード管理したりスマートコントラクトのテストやデバッグできるからこっちが多いらしいけど個人開発なら好きなほうでいいかもね  
 
